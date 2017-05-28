@@ -1,0 +1,418 @@
+<!doctype html>
+<html>
+<head>
+<title>SPRING FEST</title>
+<link rel="shortcut icon" href="title.png" type="image/x-icon">
+<link rel="icon" href="title.png" type="image/x-icon">
+<style type="text/css">
+#div2 
+{position:absolute;
+ top:7%;
+ left:60%;}
+ #div1
+ {position:absolute;
+ top:2%;
+ left:14%;}
+ #div3
+ {position:absolute;
+ top:0px;
+ left:0px;
+  background-color:#3b5998;
+  width:100%;
+  height:82px;}
+  .inputtext{width:120px;
+            }
+#div3
+{color:white;}	
+#div5
+{position:absolute;
+left:14%;
+top:8%;
+color: #0e385f;
+    font-size: 21.5px;
+    font-weight: bold;
+    line-height: 27px;
+    width:450px;
+    word-spacing: 0px;
+}
+ #div6
+ {position:absolute;
+ top:18%;
+ left:14%;}
+ #div7{position:absolute;
+ top:4%;
+ left:57%;
+    font-size: 39.5px;
+	color: #333;
+	font-weight: bold;}
+#div8{	position:absolute;
+ top:11%;
+ left:57%;
+	color: #1d2129;
+    font-size: 19px;}
+#div9
+ {position:absolute;
+ top:16%;
+ left:57%;
+} 
+.class1
+{	
+    font-size: 18px;
+    padding: 8px 10px;
+   	border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    width:174px;}
+.class2
+{	
+    font-size: 18px;
+    padding: 8px 10px;
+   	border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    width:377px;}	
+#div11
+{color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+span{display: inline-block;}
+select {border: 1px solid #bdc7d8;
+    padding: 2px;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;}	
+.class3{font-size: 11px;
+    max-width: 150px;
+    display: inline-block;
+    max-width: 140px;
+    vertical-align: middle;
+	margin-left: 10px;
+	color: #365899;
+    cursor: pointer;}
+#div13
+{margin: 20px 0 10px 0;}	
+.class4{
+	color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+	 padding: 0 10px 0 3px;
+}
+#div14{width:399px;
+       font-size: 11px;
+	padding: 1em 0;
+	color:#777;}
+.class5
+{font-size: 19px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-width: 194px;
+    padding: 7px 16px;
+    text-align: center;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    background: linear-gradient(#67ae55, #578843);
+    border-color: #3b6e22 #3b6e22 #2c5115;}	
+#div15{color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;}	
+#div4
+ {position:absolute;
+ left:0px;
+ top:82px;
+   background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #d3d8e8 100%);
+	background: -webkit-linear-gradient(top, #ffffff 0%,#d3d8e8 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#d3d8e8 100%);
+  width:100%;
+  height:586px;}
+#div16{position:absolute;
+       left:250px;
+       top:660px;
+	   padding-top: 8px;
+	padding-right:15px;
+	padding-left: 0px;
+	color: #737373;
+    margin: 3 auto;
+    width: 980px;
+    font-size: 12px;}	
+#div17
+{position:absolute;
+ left:230px;
+ top:710px;
+ padding-top:8px;
+padding-right:15px;
+padding-left:0px;
+font-size:13px;
+color: #737373;} 
+.plus{border:1px solid black;
+      height:18px;
+	background-color: #f6f7f9;
+    border-color: #ced0d4;
+    color: #4b4f56;
+    border: 1px solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+    justify-content: center;
+    padding: 0 8px;
+    cursor: pointer;
+    display: inline-block;}
+.login{border-radius: 2px;
+	border: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    line-height: 19px;
+    padding: 2px 6px;
+    color: #fff;
+    background-color: #4267b2;
+    border-color: #29487d;}	
+	.link{color: #9cb4d8;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 16px;}
+	</style>
+</head>
+<body>
+<div id="div3">
+<div id="div2">
+<form>
+				
+					<table cellspacing="3">
+						<tr>
+						
+							<td>Email or Phone</td>
+							<td>Password</td>
+							
+						</tr>
+						<tr>
+							<td><input type="email" name="email" class="inputtext"></td>
+							<td><input type="password" name="password" class="inputtext"></td>
+							<td><input type="submit" value="Log In" class="login"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="#" class="link">Forgotten account?</a></td>
+						</tr>
+					</table>
+				
+</form>	
+</div>
+<div id="div1"><img src="sf.png" height="90"/></div>
+</div>
+<div id="div4">
+<div id="div5">SF helps you connect and share with the people in your life</div>
+<div id="div6"><img src="fb1.png" height="190"/></div>
+<div id="div7">Create an account</div>
+<div id="div8">It's free and always will be.</div>
+<div id="div9">
+<form>
+	<input class="class1" type="text"  placeholder="First Name">
+	<input class="class1" type="text" placeholder="Surname"><br><br>
+	<input class="class2" type="text" placeholder="Mobile number or email address"><br><br>
+	<input class="class2" type="password" placeholder="New password"><br><br>
+	<div id="div10">
+						<div id="div11">Birthday</div>
+						<span>
+							<select name="birthday" title="Day" class="day">
+								<option value="0" selected="1">Day</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>
+							<select name="birthmonth" title="Month" class="month">
+								<option value="0" selected="1">Month</option>
+								<option value="1">Jan</option>
+								<option value="2">Feb</option>
+								<option value="3">Mar</option>
+								<option value="4">Apr</option>
+								<option value="5">May</option>
+								<option value="6">Jun</option>
+								<option value="7">Jul</option>
+								<option value="8">Aug</option>
+								<option value="9">Sept</option>
+								<option value="10">Oct</option>
+								<option value="11">Nov</option>
+								<option value="12">Dec</option>
+							</select>
+							<select name="birthyear" title="Year" class="year">
+								<option value="0" selected="1">Year</option>
+								<option value="2017">2017</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								<option value="2014">2014</option>
+								<option value="2013">2013</option>
+								<option value="2012">2012</option>
+								<option value="2011">2011</option>
+								<option value="2010">2010</option>
+								<option value="2009">2009</option>
+								<option value="2008">2008</option>
+								<option value="2007">2007</option>
+								<option value="2006">2006</option>
+								<option value="2005">2005</option>
+								<option value="2004">2004</option>
+								<option value="2003">2003</option>
+								<option value="2002">2002</option>
+								<option value="2001">2001</option>
+								<option value="2000">2000</option>
+								<option value="1999">1999</option>
+								<option value="1998">1998</option>
+								<option value="1997">1997</option>
+								<option value="1996">1996</option>
+								<option value="1995">1995</option>
+								<option value="1994">1994</option>
+								<option value="1993">1993</option>
+								<option value="1992">1992</option>
+								<option value="1991">1991</option>
+								<option value="1990">1990</option>
+								<option value="1989">1989</option>
+								<option value="1988">1988</option>
+								<option value="1987">1987</option>
+								<option value="1986">1986</option>
+								<option value="1985">1985</option>
+								<option value="1984">1984</option>
+								<option value="1983">1983</option>
+								<option value="1982">1982</option>
+								<option value="1981">1981</option>
+								<option value="1980">1980</option>
+								<option value="1979">1979</option>
+								<option value="1978">1978</option>
+								<option value="1977">1977</option>
+								<option value="1976">1976</option>
+								<option value="1975">1975</option>
+								<option value="1974">1974</option>
+								<option value="1973">1973</option>
+								<option value="1972">1972</option>
+								<option value="1971">1971</option>
+								<option value="1970">1970</option>
+								<option value="1969">1969</option>
+								<option value="1968">1968</option>
+								<option value="1967">1967</option>
+								<option value="1966">1966</option>
+								<option value="1965">1965</option>
+								<option value="1964">1964</option>
+								<option value="1963">1963</option>
+								<option value="1962">1962</option>
+								<option value="1961">1961</option>
+								<option value="1960">1960</option>
+								<option value="1959">1959</option>
+								<option value="1958">1958</option>
+								<option value="1957">1957</option>
+								<option value="1956">1956</option>
+								<option value="1955">1955</option>
+								<option value="1954">1954</option>
+								<option value="1953">1953</option>
+								<option value="1952">1952</option>
+								<option value="1951">1951</option>
+								<option value="1950">1950</option>
+							</select>
+						</span>
+						<a href="#" class="class3">Why do I need to provide my date of birth?</a>
+					</div>
+					<div id="div13">
+					<span class="class4">Female</span>:<input type="radio" name="gender" value="1">
+					<span class="class4">Male</span>:<input type="radio" name="gender" value="2">
+					</div>
+					<div id="div14">
+						<p>By clicking Create an account, you agree to our <a href="#">Terms</a> and confirm that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use Policy</a>. You may receive SMS message notifications from Facebook and can opt out at any time.</p>
+					</div>
+					<button type="submit" name="submit" class="class5">Create an account</button>
+				</form>
+				<div id="div15">
+					<a href="#">Create a Page</a> for a celebrity, band or business.
+				</div>
+</div>
+</div>
+<div id="div16">
+<table cellspacing="10">
+<tr>
+            <td>English(UK)</td>
+			<td><a href="#">हिन्दी</a></td>
+			<td><a href="#">मराठी</a></td>
+			<td><a href="#">اردو</a></td>
+			<td><a href="#">ਪੰਜਾਬੀ</a></td>
+			<td><a href="#">বাংলা</a></td>
+			<td><a href="#">ગુજરાતી</a></td>
+			<td><a href="#">தமிழ்</a></td>
+			<td><a href="#">తెలుగు</a></td>
+			<td><a href="#" class="plus"><img src="plus.png" ></a></td>
+</tr>
+</table>
+<hr>			
+</div>
+<div id="div17">
+<table cellspacing="10">
+<tr>
+				<td><a href="#">Sign Up</a></td>
+				<td><a href="#">Log In</a></td>
+				<td><a href="#">Messenger</a></td>
+				<td><a href="#">Facebook Lite</a></td>
+				<td><a href="#">Mobile</a></td>
+				<td><a href="#">Find Friends</a></td>
+				<td><a href="#">People</a></td>
+				<td><a href="#">Pages</a></td>
+				<td><a href="#">Places</a></td>
+				<td><a href="#">Games</a></td>
+				<td><a href="#">Location</a></td>
+			</tr>
+			<tr>
+				<td><a href="#">Celebrities</a></td>
+				<td><a href="#">Marketplace</a></td>
+				<td><a href="#">Groups</a></td>
+				<td><a href="#">Recipies</a></td>
+				<td><a href="#">Moments</a></td>
+				<td><a href="#">Instagram</a></td>
+				<td><a href="#">About</a></td>
+				<td><a href="#">Create Advert</a></td>
+				<td><a href="#">Create Page</a></td>
+				<td><a href="#">Developers</a></td>
+				<td><a href="#">Careers</a></td>
+			</tr>
+		</table>
+		<br>
+		<p>SPRING FEST@2017</p>
+</div>
+</body>
+</html>
